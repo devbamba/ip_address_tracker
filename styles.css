@@ -79,7 +79,7 @@ body{
  }
 
 
-.attribution { font-size: 11px; text-align: center; margin-top: 50px; }
+.attribution { font-size: 11px; text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media screen and (max-width:599px) {
@@ -92,6 +92,17 @@ body{
     }
     #head h2{
         margin-top: 10px;
+    }
+
+    #svg1{
+        background-color: rgba(0, 0, 0, 0.712);
+        display: inline-block;
+        width: 20px;
+        height: 23px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-bottom: 2px;
+        cursor: pointer;
     }
 
     #head input{
@@ -108,7 +119,7 @@ body{
         transform: translateY(-40px);
         margin-left: 50px;
         margin-right: 50px;
-        height: 200px;
+        height: 220px;
         border-radius: 20px;
         padding-top: 30px;
     }
@@ -126,9 +137,10 @@ body{
         font-size: 0.8rem !important;
         font-weight: bold;
     }
+
     #map { 
-        height: 400px;
-        margin-top: -230px;
+        height: 459px;
+        margin-top: -250px;
         z-index: 3;
      }
      #localisation p{
@@ -138,7 +150,7 @@ body{
         align-items: center;
     }
 
-    .attribution { font-size: 11px; text-align: center; margin-top: 50px;}
+    .attribution { font-size: 11px; text-align: center;}
 }
 
 
