@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+<!-----------MAP------------>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+ 
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+</head>
+<body>
+
+    <header>
+        <div id="head">
+            <div><h2>IP Address Tracker</h2></div>
+            <div><input type="search" name="" id="adress" placeholder="Search for any IP address or domain"><div id="svg1"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="14"><path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6"/></svg></div>
+            </div>
+            
+          </div>
+        <div id="localisation">
+            <div class="p1"><p>IP ADDRESS <br> <br> <span id="ip-adress"></span></p></div>
+            <div class="p2"><p >LOCATION <br> <br> <span id="location"></span></p></div>
+            <div class="p3"><p>TIMEZONE <br> <br> <span id="timezone"></span></p></div>
+            <div class="p4"><p>ISP <br> <br> <span id="isp"></span></p></div>
+        </div>
+    </header>
+  
+  
+  <div id="map"></div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Bamba Dieng</a>.
+  </div>
+
+  <script src="index.js"></script>
+  
+</body>
+</html>
