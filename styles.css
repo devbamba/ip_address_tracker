@@ -99,9 +99,9 @@ body{
         display: inline-block;
         width: 20px;
         height: 23px;
-        padding-top: 5px;
+        padding-top: 4px;
         padding-left: 10px;
-        padding-bottom: 2px;
+        padding-bottom: 5px;
         cursor: pointer;
     }
 
@@ -139,7 +139,7 @@ body{
     }
 
     #map { 
-        height: 459px;
+        height: 730px;
         margin-top: -250px;
         z-index: 3;
      }
